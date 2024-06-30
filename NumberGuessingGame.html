@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Number Guessing Game</title>
+    <link rel="stylesheet" href="NumberGuessingGame.css">
+    <script defer src="NumberGuessingGame.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Number Guessing Game!</h1>
+        <div class="game-container">
+            <input type="text" id="maxNumberInput" placeholder="Enter the maximum number">
+            <div id="guessSection" class="hidden">
+                <input type="text" id="guessInput" placeholder="Enter your guess or 'Quit' to exit">
+                <button id="guessBtn">Guess</button>
+            </div>
+            <p id="message"></p>
+            <p id="attempts"></p>
+        </div>
+    </div>
+</body>
+</html>
